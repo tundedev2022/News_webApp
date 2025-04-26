@@ -13,8 +13,8 @@ import Bookmarks from './Bookmarks'
 import BlogsModal from './BlogsModal'
 import axios from 'axios'
 
-
 const API_KEY = import.meta.env.VITE_GNEWS_API_KEY;
+const url = `https://gnews.io/api/v4/top-headlines?lang=en&country=us&apikey=${API_KEY}`;
 
 const categories = [
   "general", "world", "business", "technology",

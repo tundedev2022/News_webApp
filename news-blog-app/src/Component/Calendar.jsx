@@ -51,7 +51,7 @@ const Calendar = () => {
 
         {[...Array(daysInMonth)].map((_, day) => (
           <span
-            key={day + 1}
+            key={day + 2}
             className={
               day + 1 === currentDate.getDate() &&
               currentMonth === currentDate.getMonth() &&
